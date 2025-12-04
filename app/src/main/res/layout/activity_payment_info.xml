@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#F8FAFC"
+    android:padding="24dp"
+    android:gravity="top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- HEADER -->
+    <TextView
+        android:text="💳 Payment Information"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#0F172A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- PAYMENT CARD -->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="#FFFFFF">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- NAME INPUT -->
+            <EditText
+                android:id="@+id/etName"
+                android:hint="Full Name"
+                android:background="@drawable/bg_edittext"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="#0F172A"
+                android:textColorHint="#94A3B8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!-- CARD INPUT -->
+            <EditText
+                android:id="@+id/etCard"
+                android:hint="Card Number (16 digits)"
+                android:inputType="number"
+                android:maxLength="16"
+                android:background="@drawable/bg_edittext"
+                android:padding="16dp"
+                android:textSize="16sp"
+                android:textColor="#0F172A"
+                android:textColorHint="#94A3B8"
+                android:layout_marginTop="14dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <!-- CONFIRM PAYMENT BUTTON -->
+    <Button
+        android:id="@+id/btnConfirm"
+        android:text="Confirm Payment"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bg_button_primary"
+        android:layout_marginTop="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="58dp" />
+
+</LinearLayout>

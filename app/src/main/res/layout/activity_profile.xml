@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8FAFC"
+    android:fillViewport="true"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- 🔹 Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:gravity="center"
+            android:padding="20dp"
+            android:background="@drawable/bg_gradient_header">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:text="My Profile"
+                android:textColor="#FFFFFF"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <!-- Move content up into the white card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-60dp"
+            android:background="@drawable/bg_card_elevated"
+            android:orientation="vertical"
+            android:padding="24dp"
+            android:elevation="8dp"
+            android:layout_margin="20dp">
+
+            <!-- 🔹 Profile Image -->
+            <ImageView
+                android:id="@+id/ivProfileImage"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/ic_launcher_foreground"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_card"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="Profile Image" />
+
+            <!-- 🔹 Change Photo Button -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnChangePhoto"
+                android:text="Change Photo"
+                android:textColor="#6366F1"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:layout_marginBottom="20dp"
+                android:layout_gravity="center_horizontal" />
+
+            <!-- 🔹 Name Label -->
+            <TextView
+                android:text="Full Name"
+                android:textSize="14sp"
+                android:textColor="#475569"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- 🔹 Editable Name Field -->
+            <EditText
+                android:id="@+id/etProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="6dp"
+                android:padding="10dp"
+                android:background="@drawable/rounded_edittext"
+                android:textColor="#0F172A"
+                android:textSize="16sp"
+                android:hint="Enter your name" />
+
+            <!-- 🔹 Email Label -->
+            <TextView
+                android:text="Email"
+                android:textSize="14sp"
+                android:textColor="#475569"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- 🔹 Email Value -->
+            <TextView
+                android:id="@+id/tvProfileEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#334155"
+                android:textSize="16sp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp" />
+
+            <!-- 🔹 Role Label -->
+            <TextView
+                android:text="Role"
+                android:textSize="14sp"
+                android:textColor="#475569"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <!-- 🔹 Role Value -->
+            <TextView
+                android:id="@+id/tvProfileRole"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#334155"
+                android:textSize="16sp"
+                android:paddingTop="6dp"
+                android:paddingBottom="6dp" />
+
+            <!-- 🔹 Save Button -->
+            <Button
+                android:id="@+id/btnSaveChanges"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:layout_marginTop="24dp"
+                android:background="@drawable/bg_button_primary"
+                android:text="Save Changes"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAllCaps="false" />
+            <Button
+                android:id="@+id/btnMyReceipts"
+                android:layout_width="match_parent"
+                android:layout_height="54dp"
+                android:background="@drawable/bg_button_primary"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:textAllCaps="false"
+                android:text="My Receipts"
+                android:layout_marginTop="20dp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

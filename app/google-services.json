@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245856370420",
+    "project_id": "librarysystem-final",
+    "storage_bucket": "librarysystem-final.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245856370420:android:f3bb330d62fde9a70be8a1",
+        "android_client_info": {
+          "package_name": "com.manish.librarysystemfinal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5T3d3cne5dTYteGPyQ7qFq5W7davcdk4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

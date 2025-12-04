@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imgRejectedBook"
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:scaleType="centerCrop"
+        android:background="#E2E8F0" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:paddingStart="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvRejectedTitle"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvRejectedAuthor"
+            android:textSize="14sp"
+            android:textColor="#475569"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/tvRejectedReason"
+            android:textSize="13sp"
+            android:textColor="#DC2626"
+            android:layout_marginTop="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnResubmit"
+                android:text="Resubmit"
+                android:textColor="#FFFFFF"
+                android:background="#059669"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDeleteRejected"
+                android:text="Delete"
+                android:textColor="#FFFFFF"
+                android:layout_marginStart="12dp"
+                android:background="#DC2626"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

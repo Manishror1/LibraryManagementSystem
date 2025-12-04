@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Title: dynamic (Borrow Book / Pay Fine) -->
+    <TextView
+        android:id="@+id/tvCheckoutTitle"
+        android:text="Checkout"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#111827"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Short description: set from code (book title / fine text) -->
+    <TextView
+        android:id="@+id/tvCheckoutDesc"
+        android:text="Confirm payment?"
+        android:textSize="15sp"
+        android:textColor="#4B5563"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Amount -->
+    <TextView
+        android:id="@+id/tvCheckoutAmount"
+        android:text="$0"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#16A34A"
+        android:layout_marginBottom="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Small note: simulated payment -->
+    <TextView
+        android:id="@+id/tvCheckoutNote"
+        android:text="This is a simulated in-app payment (no real money is charged)."
+        android:textSize="12sp"
+        android:textColor="#9CA3AF"
+        android:gravity="center"
+        android:layout_marginBottom="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Confirm button -->
+    <Button
+        android:id="@+id/btnCheckoutConfirm"
+        android:text="Confirm Payment"
+        android:textAllCaps="false"
+        android:background="#16A34A"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Cancel -->
+    <Button
+        android:id="@+id/btnCheckoutCancel"
+        android:text="Cancel"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"
+        android:background="#DC2626"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
