@@ -37,6 +37,7 @@
                 android:paddingStart="12dp"
                 android:paddingEnd="8dp"
                 android:text="🔍"
+                android:textColor="#334155"
                 android:textSize="20sp" />
 
             <EditText
@@ -47,8 +48,8 @@
                 android:background="@android:color/transparent"
                 android:hint="Search books..."
                 android:padding="12dp"
-                android:textColor="#0F172A"
-                android:textColorHint="#94A3B8"
+                android:textColor="#1E293B"
+                android:textColorHint="#64748B"
                 android:textSize="16sp" />
         </LinearLayout>
     </LinearLayout>

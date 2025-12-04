@@ -69,6 +69,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="✍️ "
+                        android:textColor="#334155"
                         android:textSize="16sp" />
 
                     <TextView
@@ -76,7 +77,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Author"
-                        android:textColor="#475569"
+                        android:textColor="#1E293B"
                         android:textSize="16sp" />
                 </LinearLayout>
 
@@ -96,7 +97,7 @@
                         android:layout_height="wrap_content"
                         android:layout_weight="1"
                         android:text="⭐ 0.0"
-                        android:textColor="#D97706"
+                        android:textColor="#B45309"
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
@@ -114,7 +115,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="1dp"
                     android:layout_marginBottom="16dp"
-                    android:background="#E2E8F0" />
+                    android:background="#CBD5E1" />
 
                 <!-- Price & Stock Info -->
                 <LinearLayout
@@ -145,7 +146,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="$0.00"
-                            android:textColor="#10B981"
+                            android:textColor="#059669"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -176,7 +177,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="0 copies"
-                            android:textColor="#6366F1"
+                            android:textColor="#4338CA"
                             android:textSize="20sp"
                             android:textStyle="bold" />
                     </LinearLayout>
@@ -191,7 +192,7 @@
                     android:layout_marginBottom="10dp"
                     android:background="@drawable/bg_button_primary"
                     android:elevation="4dp"
-                    android:text="📖 Borrow This Book"
+                    android:text="Borrow This Book"
                     android:textAllCaps="false"
                     android:textColor="#FFFFFF"
                     android:textSize="17sp"
@@ -202,9 +203,9 @@
                     android:layout_width="match_parent"
                     android:layout_height="52dp"
                     android:background="@drawable/bg_card"
-                    android:text="✍️ Write a Review"
+                    android:text="Write a Review"
                     android:textAllCaps="false"
-                    android:textColor="#6366F1"
+                    android:textColor="#4F46E5"
                     android:textSize="16sp"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -223,7 +224,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="💭 User Reviews"
+                android:text="User Reviews"
                 android:textColor="#0F172A"
                 android:textSize="22sp"
                 android:textStyle="bold" />
