@@ -236,7 +236,7 @@
                 <Button
                     android:id="@+id/navHome"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="60dp"
                     android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:background="@drawable/bg_button_primary"
@@ -248,7 +248,7 @@
                 <Button
                     android:id="@+id/navBooks"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="58dp"
                     android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
@@ -260,7 +260,7 @@
                 <Button
                     android:id="@+id/navProfile"
                     android:layout_width="0dp"
-                    android:layout_height="48dp"
+                    android:layout_height="wrap_content"
                     android:layout_margin="4dp"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
